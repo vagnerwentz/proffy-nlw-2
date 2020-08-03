@@ -20,6 +20,7 @@
 <p align="center">
   <a href="#how-to-run?">How to run?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#notions">Anotações</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 <h2>How to run? ⚙️</h2>
@@ -43,3 +44,7 @@
 [💻 Front-end](https://www.figma.com/file/Snen317VmzHluRUHBRlzTE/Proffy-Web-Copy?node-id=0%3A1)
 
 [📱 Mobile](https://www.figma.com/file/DwHBNPVW9M0ruTIke5XOYo/Proffy-Mobile-Copy?node-id=0%3A1)
+
+<h2>Anotações</h2>
+
+[Notion](https://www.notion.so/Next-Level-Week-2-804d368f08c341f2a12c60708def84b6)
