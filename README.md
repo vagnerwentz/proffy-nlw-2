@@ -29,6 +29,18 @@
 # Clone the project
   git clone https://github.com/vagnerwentz/proffy-nlw-2.git
 
+# Navigate to server folder
+  cd server
+  
+# Run to install the dependencies
+  yarn
+
+# Create the migrations
+  yarn knex:migrate
+
+# Start the server
+  yarn dev:server
+
 # Navigate to web folder
   cd web
 
