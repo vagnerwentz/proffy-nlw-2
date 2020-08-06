@@ -27,13 +27,13 @@
 <h2>Techs</h2>
 
 
-| Back-end      |   Front-end       |     Mobile  |
-| ------------- | -------------     | ------------- 
-| [Typescript](https://www.typescriptlang.org/)    | [Typescript](https://www.typescriptlang.org/)                       |
-| [Express](https://expressjs.com/)                | [React-router-dom](https://reactrouter.com/web/guides/quick-start)  |
-| [Cors](https://www.npmjs.com/package/cors)       | [Axios](https://github.com/axios/axios)                             |
-| [Knex](http://knexjs.org/)          
-| Sqlite3       
+| Back-end      |                                     Front-end                      |     Mobile  |
+| ------------- |                                  -------------                    | ------------- 
+| [Typescript](https://www.typescriptlang.org/)    | [Typescript](https://www.typescriptlang.org/) | [Typescript](https://www.typescriptlang.org/)
+| [Express](https://expressjs.com/)                | [React-router-dom](https://reactrouter.com/web/guides/quick-start)| [Expo](https://expo.io/)
+| [Cors](https://www.npmjs.com/package/cors)       | [Axios](https://github.com/axios/axios)| [React-Navigation](https://reactnavigation.org/)
+| [Knex](http://knexjs.org/)                       |                                        | [React Native](https://reactnative.dev/)
+| Sqlite3                                          |                                        | 
 
 </div>
 
@@ -62,6 +62,15 @@
   yarn
 
 # Start the project
+  yarn start
+  
+# Navigate to mobile folder
+  cd mobile
+
+# Run to install the dependencies
+  yarn
+
+# Start the project with
   yarn start
 ```
 
