@@ -1,37 +1,54 @@
 import React from 'react';
 
+import api from '../../services/api';
+
 import whatsappIcon from '../../assets/images/icons/whatsapp.svg';
 
 import './styles.css';
 
-function TeacherItem() {
+export interface Teacher {
+    id: number;
+    avatar: string;
+    name: string;
+    subject: string;
+    bio: string;
+    cost: number;
+    whatsapp: string;
+}
+export interface TeacherItemProps {
+  teacher: Teacher
+}
+
+const TeacherItem: React.FC<TeacherItemProps> = ({ teacher }) => {
+
+  function createNewConnection() {
+    api.post('connections', {
+      user_id: teacher.id,
+    });
+  }
+
   return (
     <article className="teacher-item">
       <header>
-        <img src="https://avatars3.githubusercontent.com/u/26815672?s=460&u=4523985fe51eda4eebc170221cb99aa0ae713c8a&v=4" alt="Vagner Wentz"/>
+        <img src={teacher.avatar} alt={teacher.name}/>
         <div>
-          <strong>Vagner Wentz</strong>
-          <span>Cálculo Diferencial e Integral II</span>
+          <strong>{teacher.name}</strong>
+          <span>{teacher.subject}</span>
         </div>
       </header>
 
-      <p>
-        Entusiasta das melhores formas de aprender cálculo avançado.
-        <br /><br />
-        Apaixonado por explodir coisas em laboratório e por mudar a vida das pessoas através
-        da matemática. Mais de 200.000 pessoas já passaram pelos meus cálculos e também 
-        Isaac Newton foi aluno de Vagner Wentz. 
-      </p>
+      <p>{teacher.bio}</p>
 
       <footer>
         <p>
           Preço/hora
-          <strong>R$ 100,00</strong>
+          <strong>R$ {teacher.cost}</strong>
         </p>
-        <button type="button">
+        <a target="_blank" 
+          onClick={createNewConnection} href={`https://wa.me/${teacher.whatsapp}`}>
           <img src={whatsappIcon} alt="Whatsapp"/>
           Entrar em contato
-        </button>
+        </a>
       </footer>
     </article>
   )
