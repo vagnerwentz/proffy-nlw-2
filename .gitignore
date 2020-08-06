@@ -1,8 +1,24 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
+# Front-end
 /web/node_modules
+# Back-end
 /server/node_modules
+# Mobile
+/mobile/node_modules/**/*
+/mobile/.expo/*
+/mobile/npm-debug.*
+/mobile/*.jks
+/mobile/*.p8
+/mobile/*.p12
+/mobile/*.key
+/mobile/*.mobileprovision
+/mobile/*.orig.*
+/mobile/web-build/
+/mobile/.DS_Store
+
+# depenedncies
 /.pnp
 .pnp.js
 
