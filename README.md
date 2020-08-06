@@ -18,10 +18,24 @@
 </div>
 
 <p align="center">
+  <a href="#techs">Techs</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#how-to-run?">How to run?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#anotações">Anotações</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#notes">Notes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
+
+<h2>Techs</h2>
+
+
+| Back-end      |   Front-end       |     Mobile  |
+| ------------- | -------------     | ------------- 
+| Typescript    | Typescript        |
+| Express       | React-router-dom  |
+| Cors          | Axios             |
+| Knex          
+| Sqlite3       
+
+</div>
 
 <h2>How to run? ⚙️</h2>
 
@@ -57,6 +71,6 @@
 
 [📱 Mobile](https://www.figma.com/file/DwHBNPVW9M0ruTIke5XOYo/Proffy-Mobile-Copy?node-id=0%3A1)
 
-<h2>Anotações</h2>
+<h2>Notes</h2>
 
 [Notion](https://www.notion.so/Next-Level-Week-2-804d368f08c341f2a12c60708def84b6)
