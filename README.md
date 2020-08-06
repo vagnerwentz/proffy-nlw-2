@@ -29,10 +29,10 @@
 
 | Back-end      |   Front-end       |     Mobile  |
 | ------------- | -------------     | ------------- 
-| Typescript    | Typescript        |
-| Express       | React-router-dom  |
-| Cors          | Axios             |
-| Knex          
+| [Typescript](https://www.typescriptlang.org/)    | [Typescript](https://www.typescriptlang.org/)                       |
+| [Express](https://expressjs.com/)                | [React-router-dom](https://reactrouter.com/web/guides/quick-start)  |
+| [Cors](https://www.npmjs.com/package/cors)       | [Axios](https://github.com/axios/axios)                             |
+| [Knex](http://knexjs.org/)          
 | Sqlite3       
 
 </div>
