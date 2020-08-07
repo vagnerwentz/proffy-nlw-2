@@ -36,7 +36,7 @@
 | [Express](https://expressjs.com/)                | [React-router-dom](https://reactrouter.com/web/guides/quick-start)| [Expo](https://expo.io/)
 | [Cors](https://www.npmjs.com/package/cors)       | [Axios](https://github.com/axios/axios)| [React-Navigation](https://reactnavigation.org/)
 | [Knex](http://knexjs.org/)                       |                                        | [React Native](https://reactnative.dev/)
-| Sqlite3                                          |                                        | 
+| Sqlite3                                          |                                        | [Async Storage](https://github.com/react-native-community/async-storage)
 
 </div>
 
