@@ -1,6 +1,9 @@
 <div align="center">
   <img src="https://github.com/vagnerwentz/proffy-nlw-2/blob/master/.github/logo.svg" alt"Proffy" title="Proffy" />
   
+  <div align="center">
+    <img src="https://github.com/vagnerwentz/proffy-nlw-2/blob/master/.github/footer.svg" alt"Proffy Footer" title="Proffy" />
+  </div>
   <h2>Sua plaforma de estudos online.</h2>
   <p>⚠️EM CONSTURÇÃO⚠️</p>
   
